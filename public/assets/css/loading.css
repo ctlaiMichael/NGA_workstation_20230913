@@ -1,0 +1,45 @@
+body {
+    background-image: url("/assets/img/bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+
+    position: absolute;
+    height: 100vh;
+    /* 设置容器的高度为视窗高度 */
+    margin-left: 120px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.oeC {
+    margin-top: 150px;
+    /* 調整這個數值以達到您想要的間距 */
+}
+
+.oeC.active {
+    color: rgb(0, 253, 42);
+}
+
+.container text-center {
+    margin-bottom: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container text-center oeC my-5 {
+    text-align: center;
+    font-weight: bold;
+}
